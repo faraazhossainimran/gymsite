@@ -1,0 +1,240 @@
+@media(min-width:992px) and (max-width:1199px){
+    header .banner_part .banner_item_one .banner_overlay{
+        padding-top: 235px;
+        padding-bottom: 110px;
+    }
+    header .banner_part .banner_border::after{
+        width: 133px;
+        top: 22px;
+    }
+    header .banner_part .banner_border .content::after{
+        width: 42px;
+        bottom: 12px;
+    }
+    header .banner_part .banner_border::before{
+        height: 84%;
+    }
+    header .banner_part .banner_border .text::before{
+        width: 81px;
+    }
+    header .banner_part .banner_border .content::before{
+        width: 17px;
+        bottom: 12px;
+    }
+    header .banner_part .banner_border .text::after{
+        height: 84%; 
+    }
+    #about_part p{
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 0;
+    }
+    #testimonial .test_bg p{
+        font-size: 13px;
+    }
+    footer .twitt p{
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    footer .ftr_contact p{
+        padding-bottom: 0px;
+    }
+    footer .ftr_contact p a{
+        font-size: 12px;
+    }
+}
+@media(max-width:991px){
+    header .navigation{
+        top: 0;
+    }
+    header .navigation .navbar-brand{
+        position: relative;
+        padding: 0 10px;
+        top: 0;
+    }
+    header .navigation .navbar-brand img{
+        height: 50px;
+        padding: 5px 0;
+    }
+    header .banner_part .banner_border::after,header .banner_part .banner_border .content::after,header .banner_part .banner_border::before,header .banner_part .banner_border .text::before,header .banner_part .banner_border .content::before,header .banner_part .banner_border .text::after{
+        display: none;
+    }
+    #counter_part .count_text,#counter_part .count_text_right{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    
+    header .navigation nav .navbar-nav .nav-item .nav-link{
+        font-size: 13px;
+        padding: 0 12px;
+    }
+    header .banner_part h3{
+        font-size: 24px;
+    }
+    header .banner_part h1{
+        font-size: 48px;
+    }
+    header .banner_part .banner_item_one .banner_overlay{
+        padding: 100px 0 70px;
+    }
+    header .banner_part .slick-dots li button{
+        width: 12px;
+        height: 12px;
+        margin: 0;
+    }
+    #about_part,#team_part{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #about_part a{
+        display: block;
+        margin-top: 30px;
+    }
+    #about_part .video img{
+        width: 100%;
+    }
+    #team_part .slick-list{
+        padding-top: 40px;
+    }
+    #classes .class_item{
+        width: 25%;
+    }
+    footer .flicker{
+        margin-top: 30px;
+        padding-right: 30px;
+    }
+    footer .days{
+        padding-right: 30px;
+    }
+    footer .ftr_contact{
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+    footer .twitt{
+        padding-left: 30px;
+    }
+    footer .flicker a img{
+        width: 100%;
+    }
+  
+}
+@media(max-width:767px){
+    .navbar-nav{
+        padding-bottom: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+    }
+    .navbar-light .navbar-toggler{
+        border: 0;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        font-size: 13px;
+        line-height: 34px;
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link.active, header .navigation nav .navbar-nav .nav-item .nav-link:hover{
+        background: none;
+        color: #e23e38;
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link:hover::after, header .navigation nav .navbar-nav .nav-item .nav-link.active::after{
+        width: 0;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .navbar-nav{
+        padding-bottom: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+    }
+    .navbar-light .navbar-toggler{
+        border: 0;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        font-size: 13px;
+        line-height: 34px;
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link.active, header .navigation nav .navbar-nav .nav-item .nav-link:hover{
+        background: none;
+        color: #e23e38;
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link:hover::after, header .navigation nav .navbar-nav .nav-item .nav-link.active::after{
+        width: 0;
+    }
+    header .banner_part h3{
+        font-size: 20px;
+    }
+    header .banner_part h1{
+        font-size: 44px;
+    }
+    header .banner_part .banner_item_one .banner_overlay{
+        padding: 130px 0 70px;
+    }
+    header .banner_part .slick-dots li button{
+        margin: 0;
+        width: 12px;
+        height: 12px;
+    }
+    #about_part p{
+        padding-top: 30px;
+    }
+    #membership h4{
+        margin-top: 30px;
+    }
+    #counter_part h3{
+        font-size: 32px;
+    }
+    #counter_part p{
+        font-size: 14px;
+    }
+    #classes .class_item{
+        width: 33.33%;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:576px){
+    header .navigation .navbar-brand img{
+        height: 40px;
+        transform: skewX(22deg);
+    }
+    header .navigation .navbar-brand{
+        transform: skewX(-22deg);
+    }
+    header .banner_part h3{
+        font-size: 24px;
+    }
+    header .banner_part h1{
+        font-size: 44px;
+    }
+    header .banner_part .banner_item_one .banner_overlay{
+        padding: 100px 0 65px;
+    }
+    header .banner_part .slick-dots li button{
+        margin: 0;
+    }
+    header .banner_part .slick-dots{
+        bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
